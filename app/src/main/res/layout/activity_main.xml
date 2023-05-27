@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Enter Distance"
+    android:id="@+id/txt1"
+    android:layout_margin="10dp"
+    ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Average"
+        android:id="@+id/txt2"
+        android:layout_margin="10dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Rate"
+        android:id="@+id/txt3"
+        android:layout_margin="10dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:text="Calculate"
+        android:id="@+id/b1"
+        android:onClick="cal"
+
+        android:layout_margin="10dp"
+        ></Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Petrol"
+        android:id="@+id/txt4"
+        android:layout_margin="10dp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Cost"
+        android:id="@+id/txt5"
+        android:layout_margin="10dp"
+        ></EditText>
+
+</LinearLayout>
